@@ -95,8 +95,8 @@ const AppSidebar = () => {
                     [
                         ['Auto Pay', '/auto-pay', <CircleDollarSign className="text-neutral-400" />],
                         ['Auto Pay History', '/autopay-history', <Clock className="text-neutral-400" />],
-                        // ['Deposit', '/deposit', <CircleDollarSign className="text-neutral-400" />],
-                        // ['Deposit History', '/deposit-history', <TrendingUp className="text-neutral-400" />],
+                        ['Deposit', '/deposit', <CircleDollarSign className="text-neutral-400" />],
+                        ['Deposit History', '/deposit-history', <TrendingUp className="text-neutral-400" />],
                         ['Fund Summary', '/fund-summary', <FileChartLine className="text-neutral-400" />],
                     ],
                     true
@@ -145,8 +145,8 @@ const AppSidebar = () => {
                 )}
 
                 {renderSidebarSection('Transfer', [
-                    ['Transfer P2P', '/transfer-p2p', <UserPen className="text-neutral-400" />],
-                    ['Transfer P2P History', '/transfer-history', <KeyRound className="text-neutral-400" />],
+                    // ['Transfer P2P', '/transfer-p2p', <UserPen className="text-neutral-400" />],
+                    // ['Transfer P2P History', '/transfer-history', <KeyRound className="text-neutral-400" />],
                     ['Transfer To Fund', '/transfer-to-fund', <KeySquare className="text-neutral-400" />],
                     ['Transfer To Fund History', '/transfer-to-fund-history', <CircleHelp className="text-neutral-400" />],
                 ])}
