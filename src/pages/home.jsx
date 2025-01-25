@@ -83,11 +83,11 @@ const Home = ({ }) => {
             <NavBar />
             <BannerCarousel />
             <div className="grid grid-cols-2 gap-3 p-4">
-                        <div className="relative flex flex-col gap-2 rounded-lg py-2 px-5 bg-[#242427]">
+                        {/* <div className="relative flex flex-col gap-2 rounded-lg py-2 px-5 bg-[#242427]">
                             <div className="text-app-text-muted">Total Earnings</div>
                             <div className="text-xl text-pink-500">{new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' }).format(data?.totalEarnings)}</div>
                             <div className="absolute w-1 h-6 bg-pink-500 top-2 left-0 rounded-full"></div>
-                        </div>
+                        </div> */}
                         <div className="relative flex flex-col gap-2 rounded-lg py-2 px-5 bg-[#242427]">
                             <div className="text-app-text-muted">Today All Earnings</div>
                             <div className="text-xl text-pink-500">{new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' }).format(data?.todayEarnings)}</div>
